@@ -35,11 +35,11 @@ but with more control and custom UI.
 
     <style>
       #custom-tootip-id {
-        opacity 0
-        transition opacity .5s
+        opacity: 0;
+        transition: opacity .5s;
       }
       #custom-tootip-id.active {
-        opacity 1
+        opacity: 1;
       }
     </style>
 
