@@ -19,7 +19,8 @@ but with more control and custom UI.
     animSpeed: 0, // Delay before the tooltip is hidden when closing (Milliseconds).
                   // To accommodate css transition you might have. 
     align: 'bottom right' // Align the element relative to the mouse,
-    zIndex: 9999999 // Z-index of the tooltip
+    zIndex: 9999999 // Z-index of the tooltip,
+    ignoreIfTouch: true // Don't bind when touchscreen, to save memory as hover is not available.
     
 ## Uses
 
